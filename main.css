@@ -12,7 +12,9 @@ body{
 }
 .footer{
     font-size: 20px;
+    text-align: center;
 }
+
 .poster {
     width: 500px;
     padding: 2%;
