@@ -1,0 +1,28 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript">
+            const ImageArray = ['trump1.jpeg', 'trump2.jpeg', 'trump3.jpeg', 'trump4.jpeg'];
+
+            function getRandomImage() { 
+                const num = Math.floor(Math.random() * 4);
+                const img = ImageArray[num]
+                document.getElementById("trumpy").innerHTML = ('<img src="' + 'img/' + img + '">')
+            }
+        </script>
+    </head>
+
+    <body class="main" onload="getRandomImage()">
+        <div class="container">
+            <div class="header">
+                <h1>Is Trump a Glizzy Gobbler?</h1>
+            </div>
+            <div id="trumpy" class="poster">
+            </div>
+            <div class="footer">
+                <h2>Survey says... YES!</h2>
+            </div>
+        </div>
+    </body>
+</html>
