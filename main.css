@@ -14,7 +14,9 @@ body{
     font-size: 20px;
     text-align: center;
 }
-
+.hint{
+  font-size: 12px;
+}
 .poster {
     width: 500px;
     padding: 1%;
